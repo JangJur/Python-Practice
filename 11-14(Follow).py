@@ -37,6 +37,7 @@ user2.follow(user3)
 user2.follow(user4)
 user4.follow(user1)
 
+
 print(user1.name, user1.num_followers(), user1.num_following())
 print(user2.name, user2.num_followers(), user2.num_following())
 print(user3.name, user3.num_followers(), user3.num_following())
